@@ -29,10 +29,22 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   
   1. What is the difference between counter1 and counter2?
   
+  ---The counter1 code uses the keyword "function" to declare a function that includes a function name with an open and closed parentheses.
+  ---It also provides a nested closure function that can take a variable from outside the nested function to receive from the parent function.
+
+  ---The counter2 code is a private variable that can also reach to the parent scope to retrieve a variable. For example, counterMaker in code 2 can also be found in code 1.
+  
   2. Which of the two uses a closure? How can you tell?
+
+  ---Counter1 code1 uses a closure where 'count' is located in the return section, it pulls from the 'count' located in the parent scope of the code.
+  
+  ---Counter2 code takes from the 'let count = 0' argument which is outside of the function.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
+     
+  ---Code 1 would be good for keeping score of sports game
+  ---Code 2 is for creating a game.  
 */
 
 // counter1 code
