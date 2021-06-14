@@ -43,6 +43,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Closure is when a function references a variable outside of it's scope where it can retrieve it from it's parent scope. 
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +66,17 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+          Closure is happening to the parameter 'name' situated in in the console.log.  The 'name' variable can go outside of the scope to find the 'name' parameter located in the personalDice function.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+                  The string is what stays the same but the integer is what is constantly changing. 
+
 c. What is the lexical scope of `newRoll`? 
 
+                                'newRoll' situated within the console.log is calling a number between 1 and 6 from the variable 'newRoll'.
+                    
 
 ### Task 3 - Stretch Goals
 
