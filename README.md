@@ -63,6 +63,8 @@ const zoesRoll = personalDice("Zoe");
 
 dansRoll();
 dansRoll();
+
+
 ```
 
 a. Where is closure used in this code? How can you tell?

@@ -163,7 +163,20 @@ function scoreboard(/* CODE HERE */) {
   /* CODE HERE */
 }
 
+// function scoreBoard(getInningScoreCB, inningCB) {
+//   let totalGame = [];
+//   let homeScore = 0;
+//   let awayScore = 0;
+//   for(let i = 0; i < 3w; i++){
+//     const currentScore = inningCB(getInningScoreCB);
+//     homeScore = homeScore + currentScore.Home
+//     awayScore = awayScore + currentScore.Away
+//     totalGame.push(`Inning $(i + 1),: Away: ${currentScore.Away} - Home ${currentScore.Home}`);
+//   }
+//   return totalGame;
+// }
 
+// console.log(scoreBoard(inning, getInningScore));
 
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑 */
